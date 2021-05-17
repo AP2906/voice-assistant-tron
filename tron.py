@@ -25,10 +25,10 @@ def wishMe():
         speak("Good Morning, Prajwal!")
 
     elif hour >= 12 and hour < 18:
-        speak("Good Morning, Prajwal!")
+        speak("Good Afternoon, Prajwal!")
 
     else:
-        speak("Good Morning, Prajwal!")
+        speak("Good Evening, Prajwal!")
 
     speak("Im your personal assistant, Tron. Please tell me how may I help you.")
 
@@ -58,7 +58,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('prajwaltomar11@gmail.com', 'Demonskull@26')
+    server.login('prajwaltomar11@gmail.com', 'your password')
     server.sendmail('prajwaltomar11@gmail.com', to, content)
     server.close()
 
@@ -99,10 +99,10 @@ if __name__ == "__main__":
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my prajwal sir. I am not able to send this email")
+                speak("Sorry Prajwal sir. I am not able to send this email")
 
         elif 'how are you' in query:
-            speak("I'm really good, prajwal! after all im the assistant of the sexiest man alive and sherry is potty")
+            speak("I'm really good, Prajwal! Thank you for asking")
 
         elif 'your name' in query:
             speak("My Name is Tron!")
