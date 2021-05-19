@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>lib/exit - Copy.png</file>
+    <file>lib/exit - Copy.jpg</file>
+    <file>bg.jpg</file>
+    <file>86b0cdc9.gif</file>
+    <file>bg1.jpg</file>
+  </qresource>
+</RCC>
